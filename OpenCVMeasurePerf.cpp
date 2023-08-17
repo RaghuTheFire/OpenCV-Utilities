@@ -1,3 +1,5 @@
+//Usage: g++ OpenCVMeasurePerf.cpp.cpp -o OpenCVMeasurePerf `pkg-config --cflags --libs opencv4`
+
 #include <opecv2/opencv.hpp>
 #include <iostream>
 int main()
