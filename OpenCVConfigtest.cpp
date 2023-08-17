@@ -1,4 +1,4 @@
-//Usage: g++ opencvconfigtest.cpp -o opecvconfigtest `pkg-config --cflags --libs opencv4`
+//Usage: g++ OpenCVConfigtest.cpp.cpp -o OpenCVConfigtest `pkg-config --cflags --libs opencv4`
 
 
 #include <iostream>
