@@ -1,6 +1,5 @@
 //Usage: g++ OpenCVConfigtest.cpp.cpp -o OpenCVConfigtest `pkg-config --cflags --libs opencv4`
 
-
 #include <iostream>
 #include <stdio.h>
 #include <ctime>
