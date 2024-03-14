@@ -10,5 +10,9 @@ Programs to check the installation of OpenCV and configuration of GPU's includin
 
 3. **cv::useOptimized()** is a function in OpenCV that enables or disables the use of optimized code. By default, the optimized code is enabled. However, if you want to disable it to get more detailed error messages or to debug your code, you can use **cv::useOptimized(false)**.
 
-4. **cv::setUseOptimized()** is a function in the OpenCV library that can be used to enable or disable the usage of optimized functions. By default, the library uses optimized functions for performance. But in some cases, you might want to use the non-optimized version for debugging or testing purposes. In such cases, you can call **cv::setUseOptimized(false)** to disable the use of optimized functions. After that, all functions that have an optimized version will use the non-optimized version. To re-enable the optimized version, you can call **cv::setUseOptimized(true)**. 
+4. **cv::setUseOptimized()** is a function in the OpenCV library that can be used to enable or disable the usage of optimized functions. By default, the library uses optimized functions for performance. But in some cases, you might want to use the non-optimized version for debugging or testing purposes. In such cases, you can call **cv::setUseOptimized(false)** to disable the use of optimized functions. After that, all functions that have an optimized version will use the non-optimized version. To re-enable the optimized version, you can call **cv::setUseOptimized(true)**.
+
+# Create_Video_From_Images_Series
+Simple project to Create Video From Images Series using C++ in opencv and lib FFMPEG.
+The simple goal was take a dir with a big number of images and put it inside a video.
 
